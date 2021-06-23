@@ -44,7 +44,7 @@ print(sum(L,0,n,count))
 print("..................................................................................................")
 
 #Functions are first class and can be high class:
-        #A function is an istance of an object type 
+        #A function is an instance of an object type 
         #You can store function in a variable
         #You can pass the function as a parameter to another function
         #You can store them in data structures......lists....

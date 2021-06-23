@@ -16,9 +16,6 @@ class Point():
         # You can use any syntax you want , but the String value is necessary
 
 
-    def move(self ,x,y):
-        self.x += x
-        self.y += y
 
 #OPERATION METHODS :
 

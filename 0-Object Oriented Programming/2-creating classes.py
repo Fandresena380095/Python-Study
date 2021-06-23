@@ -6,7 +6,7 @@ class Dog(object):
         self.li = [1,3,5]
 
     def bark(self): #bark would be a method of the class Dog
-        print("Ouf!Ouf!Hi ,I am" , self.name,"and I am", self.age , "yo")
+        print(f"Ouf!Ouf!Hi ,I am {self.name} and I am {self.age} yo")
 
 
     def change_age(self , age):

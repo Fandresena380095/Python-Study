@@ -47,3 +47,25 @@ names = ['Jake','Joe','James','Jude','Jackob','Jules']
 ages = [14,15,13,19,21,13]
 total = dict(zip(names ,ages))
 print(total)
+
+
+
+
+#let's say you wanna sort a hybrid list-dictionary by name/age/country 
+students = [
+    {"name":"John" ,"age":18 ,"country":"USA" },
+    {"name":"Alex" ,"age":20 ,"country":"Canada" },
+    {"name":"Zack" ,"age":21 ,"country":"Australia" },
+    {"name":"Brian" ,"age":24 ,"country":"South Africa" }
+]
+
+#you can sort a name by using
+def sort_function(person):
+    return person["name"]  #returns the value of the key "name"
+
+students.sort(key = sort_function)
+print(students)
+
+#or simply
+students.sort(key = lambda person : person["age"])
+print(students)
